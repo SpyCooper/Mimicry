@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c56f13b05e4c394faf24cbd1b848ba5, type: 3}
+  m_Name: Sink
+  m_EditorClassIdentifier: 
+  _name: Sink
+  description: Always has a clogged drain and is dirty.
+  sprite: {fileID: 21300000, guid: a417ed356fee60a45aeb075850a39813, type: 3}
+  type1: 3
+  maxHp: 70
+  attack: 50
+  defense: 55
+  speed: 40
+  currentHp: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: cd2a190874c99d84485ff81a09ca5002, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 342880657bfb6724d91da5c60b6bdaf3, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 8101abaf1122b654583727fd6931ee56, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 733f7d26429d93f469c8f32c71f68394, type: 2}
+    level: 15
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: d16d0895ad2b66b4f8f36faee37923d7, type: 2}
+    evolutionLevel: 20

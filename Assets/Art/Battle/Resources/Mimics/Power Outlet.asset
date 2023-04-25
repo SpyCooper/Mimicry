@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c56f13b05e4c394faf24cbd1b848ba5, type: 3}
+  m_Name: Power Outlet
+  m_EditorClassIdentifier: 
+  _name: Power Outlet
+  description: Powers lower voltage objects. No forking please.
+  sprite: {fileID: 21300000, guid: 640579e4a0b2dfe4d94f0232ee4a6d40, type: 3}
+  type1: 2
+  maxHp: 50
+  attack: 20
+  defense: 15
+  speed: 45
+  currentHp: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f326bed9a3634de4fb9283f76bb51549, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c4289bcebca0519458d5464dbe24dee6, type: 2}
+    level: 15
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: e127bc379ec59244cad246bc8144fc86, type: 2}
+    evolutionLevel: 20

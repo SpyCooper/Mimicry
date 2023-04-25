@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - FovLayer
+  - Water
+  - UI
+  - SolidObjects
+  - LongGrass
+  - Interactable
+  - GotoStore
+  - LeaveStoreTown1
+  - GotoHouse1Town1
+  - goToplayerhouse
+  - LeaveHouse1Town1
+  - GotoStoreTown2
+  - LeaveStoreTown2
+  - GotoGym1
+  - LeaveGym1
+  - GoToStoreTown3
+  - LeaveStoreTown3
+  - GoToGym2
+  - LeaveGym2
+  - GoToGym3
+  - LeaveGym3
+  - GoToStoreTown4
+  - LeaveStoreTown4
+  - GoToStoreTown5
+  - LeaveStoreTown5
+  - GoToGym4
+  - LeaveGym4
+  - GoToHOA
+  - LeaveHOA
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: portals
+    uniqueID: 3456714775
+    locked: 0
+  - name: Background
+    uniqueID: 994403833
+    locked: 0
+  - name: Foreground
+    uniqueID: 2807106985
+    locked: 0
+  - name: Player
+    uniqueID: 1150846531
+    locked: 0

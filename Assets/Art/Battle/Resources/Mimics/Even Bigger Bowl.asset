@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c56f13b05e4c394faf24cbd1b848ba5, type: 3}
+  m_Name: Even Bigger Bowl
+  m_EditorClassIdentifier: 
+  _name: Even Bigger Bowl
+  description: Ridiculously sized bowl. Likes to burst through walls.
+  sprite: {fileID: 21300000, guid: ec420ab541c78cc499c1d509aa0ac84c, type: 3}
+  type1: 8
+  type2: 0
+  maxHp: 165
+  attack: 60
+  defense: 85
+  speed: 70
+  currentHp: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 1ab09fd02835ff446bcc1730f60b76a4, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 3a02ce87165d1b14aafaa782fe6659a3, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: d1c99e34a6ad74747bf143641dc5aff5, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 31737b02f7f81154da3869c8d914cb1b, type: 2}
+    level: 15

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c56f13b05e4c394faf24cbd1b848ba5, type: 3}
+  m_Name: Sheets
+  m_EditorClassIdentifier: 
+  _name: Sheets
+  description: I shipped my sheets.
+  sprite: {fileID: 21300000, guid: fd3ebf81c1630e14ea8b7a53c0f9a499, type: 3}
+  type1: 7
+  maxHp: 50
+  attack: 40
+  defense: 50
+  speed: 50
+  currentHp: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: f857bf0e85a9b4d46a1578b9ac31eebc, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 6413998b05854c3469e92aa6e01ba3cd, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: a65d88d1847d28e49bc816ba1aefb1b8, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 9ec0b854f124f1343846c0e93df88ccb, type: 2}
+    level: 15
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 73b1ba1bc9ebc404b97984541589f21c, type: 2}
+    evolutionLevel: 19

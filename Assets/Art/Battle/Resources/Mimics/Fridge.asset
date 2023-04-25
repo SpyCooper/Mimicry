@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c56f13b05e4c394faf24cbd1b848ba5, type: 3}
+  m_Name: Fridge
+  m_EditorClassIdentifier: 
+  _name: Fridge
+  description: 'Just your run of the mill fridge. Keeps food cold.
+
+'
+  sprite: {fileID: 21300000, guid: 3b4f14370f4e1d447b71858742076104, type: 3}
+  type1: 5
+  maxHp: 100
+  attack: 55
+  defense: 60
+  speed: 45
+  currentHp: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: d485bd387ccc2204ea8c5e4b900f4bd6, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 15eaec793dde95541a80076402e514a2, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: c2ea813cd39eb8f40b46b87b96c6478b, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: ff3301b487cb7184db9ae5f269ab1a5e, type: 2}
+    level: 15
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 7c49de00c1ce8f2408e7b5ac7bd6fc90, type: 2}
+    evolutionLevel: 32

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c56f13b05e4c394faf24cbd1b848ba5, type: 3}
+  m_Name: Fireplace
+  m_EditorClassIdentifier: 
+  _name: Fireplace
+  description: A place to warm up inside of a home. Was once arrested for arson.
+  sprite: {fileID: 21300000, guid: 7768de3426e1aaf4f88c76ba890fc6f3, type: 3}
+  type1: 9
+  maxHp: 80
+  attack: 75
+  defense: 45
+  speed: 50
+  currentHp: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: b2bb034c5f53bae4f98808c251f4b54f, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 81e8bf075bef9da439cbe7fb811115e2, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 9ec0b854f124f1343846c0e93df88ccb, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: cda86062a079b6e45ba41179f3355a2f, type: 2}
+    level: 15
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 20e6d6dc9a37b4b49b0e54fd774a5d88, type: 2}
+    evolutionLevel: 31

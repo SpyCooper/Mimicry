@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c56f13b05e4c394faf24cbd1b848ba5, type: 3}
+  m_Name: Fan
+  m_EditorClassIdentifier: 
+  _name: Fan
+  description: Moves air around to cool you off.  Enjoys supporting others at sporting
+    events.
+  sprite: {fileID: 21300000, guid: 8bb358e3b3cd4494ba8625e48bd9e99a, type: 3}
+  type1: 2
+  maxHp: 75
+  attack: 45
+  defense: 25
+  speed: 55
+  currentHp: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c2ea813cd39eb8f40b46b87b96c6478b, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: f326bed9a3634de4fb9283f76bb51549, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: b6ee1eebda8fa5646847a295a2336384, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: 5b02d3332004641098aa8fdbc8408fe8, type: 2}
+    level: 15
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 29777ff9aa776524d8ed712541dfbdd5, type: 2}
+    evolutionLevel: 20

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c56f13b05e4c394faf24cbd1b848ba5, type: 3}
+  m_Name: Frying Pan
+  m_EditorClassIdentifier: 
+  _name: Frying Pan
+  description: Great tool to cook food in, especially fried rice. Once knocked out
+    Flynn Rider.
+  sprite: {fileID: 21300000, guid: 2957bd64f9ed4ae489d4e1d707a7c5bc, type: 3}
+  type1: 1
+  maxHp: 70
+  attack: 70
+  defense: 55
+  speed: 40
+  currentHp: 0
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: cda86062a079b6e45ba41179f3355a2f, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: 9ec0b854f124f1343846c0e93df88ccb, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: a1bed5a2d463e63438dc7df61761e03a, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: b2bb034c5f53bae4f98808c251f4b54f, type: 2}
+    level: 15
+  evolutions:
+  - evolvesInto: {fileID: 11400000, guid: 1a4b082ded20eb2479d3d0e28f405aac, type: 2}
+    evolutionLevel: 19

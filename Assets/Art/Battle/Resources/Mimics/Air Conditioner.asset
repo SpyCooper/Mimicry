@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c56f13b05e4c394faf24cbd1b848ba5, type: 3}
+  m_Name: Air Conditioner
+  m_EditorClassIdentifier: 
+  _name: Air Conditioner
+  description: A device commonly used in homes to regulate the temperature. Often
+    found near window.
+  sprite: {fileID: 21300000, guid: 15afa03552cf67d45ab97836d96c1905, type: 3}
+  type1: 5
+  type2: 0
+  maxHp: 125
+  attack: 65
+  defense: 110
+  speed: 45
+  currentHp: 125
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c2ea813cd39eb8f40b46b87b96c6478b, type: 2}
+    level: 0
+  - moveBase: {fileID: 11400000, guid: c61fd7cf2b48b964295461ffd4abc56c, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 15eaec793dde95541a80076402e514a2, type: 2}
+    level: 10
+  - moveBase: {fileID: 11400000, guid: ff3301b487cb7184db9ae5f269ab1a5e, type: 2}
+    level: 15
