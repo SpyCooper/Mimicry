@@ -18,10 +18,10 @@ My small team for a school project made a turn based monster fighting game in Un
 4. Click the play button at the view window
 
 ## Keybinds for the game
-W - Walk up / navigate up
-A - Walk left/ navigate left
-S - Walk down / navigate down
-D - Walk right / navigate right
-E - Select/Interact
-Tab - Leave/close current menu
+W - Walk up / navigate up \
+A - Walk left/ navigate left \
+S - Walk down / navigate down \
+D - Walk right / navigate right \
+E - Select/Interact \
+Tab - Leave/close current menu \
 Esc - Open pause menu (only in overworld)
