@@ -23,5 +23,5 @@ A - Walk left/ navigate left
 S - Walk down / navigate down
 D - Walk right / navigate right
 E - Select/Interact
-Tab - Leave/close current menu
+Tab - Leave/close current menu\
 Esc - Open pause menu (only in overworld)
